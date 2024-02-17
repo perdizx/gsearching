@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Menentukan tinggi halaman untuk memanfaatkan display: flex */
+}
+
+.container {
+    text-align: center;
+    width: 100%;
+    max-width: 400px; /* Batasi lebar container untuk tampilan yang baik di perangkat mobile */
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#searchInput {
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box; /* Pastikan lebar input termasuk padding dan border */
+}
+
+button {
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+    box-sizing: border-box; /* Pastikan lebar tombol termasuk padding dan border */
+}
+
+#imageContainer {
+    margin-top: 20px;
+}
+
+/* Tambahkan aturan CSS untuk membuat gambar responsif */
+img {
+    max-width: 100%;
+    height: auto;
+}
